@@ -12,16 +12,12 @@
     "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
     "babel-loader": "^8.2.5",
     "babel-plugin-transform-class-properties": "*",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "*",
     "braces": "^3.0.2",
     "css-loader": "^6.7.1",
     "glob-parent": "^6.0.2",
-    "live-server": "*",
+    "live-server": "^1.2.2",
     "node-sass": "*",
     "normalize.css": "^8.0.1",
     "react": "^18.1.0",
@@ -34,6 +30,10 @@
     "webpack-dev-server": "^4.8.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.10"
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "webpack-cli": "^4.9.2"
   }
 }

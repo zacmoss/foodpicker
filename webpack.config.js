@@ -3,6 +3,7 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: './src/app.js',
+    mode: 'production',
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'bundle.js'
@@ -21,7 +22,7 @@ module.exports = {
             ]
         }]
     },
-    devtool: 'cheap-module-eval-source-map',
+    //devtool: 'cheap-module-eval-source-map',
     devServer: {
         contentBase: path.join(__dirname, 'public')
     }
